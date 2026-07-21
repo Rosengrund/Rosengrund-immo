@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000" role="img" aria-label="Rosengrund Immobilienmanagement">
+  <title>Rosengrund Immobilienmanagement</title>
+  <defs>
+    <linearGradient id="gold" gradientUnits="userSpaceOnUse" x1="140" y1="220" x2="860" y2="680">
+      <stop offset="0" stop-color="#EBD9AE"/>
+      <stop offset="0.5" stop-color="#D6BA83"/>
+      <stop offset="1" stop-color="#C5A669"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="1000" fill="#12291F"/>
+
+  <g fill="url(#gold)">
+    <!-- Schornstein -->
+    <path d="M425 259h22v41l-22 21z"/>
+
+    <!-- Dach -->
+    <path d="M500 239 358 363h22l120-112 120 112h22z"/>
+
+    <!-- Fenster, vier Felder -->
+    <rect x="476" y="303" width="22" height="22" rx="1"/>
+    <rect x="505" y="303" width="22" height="22" rx="1"/>
+    <rect x="476" y="332" width="22" height="22" rx="1"/>
+    <rect x="505" y="332" width="22" height="22" rx="1"/>
+  </g>
+
+  <!-- Linie links und rechts der Rose -->
+  <g stroke="url(#gold)" stroke-width="4" fill="none">
+    <path d="M146 455h306"/>
+    <path d="M548 455h306"/>
+  </g>
+
+  <!-- ===== Rose ===== -->
+  <g transform="translate(500,408) scale(1.35)" fill="none" stroke="url(#gold)"
+     stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Bluete, gerollt -->
+    <circle cx="0" cy="0" r="25"/>
+    <path d="M11.8 12.6A18 18 0 1 1 14.9-5.2"/>
+    <path d="M3 12.4A12 12 0 1 1 8.3-2.1"/>
+    <path d="M-1.6 8.6A7 7 0 1 1 2.6-0.4"/>
+    <path d="M0 4a3.5 3.5 0 1 1 2.5-2.5"/>
+    <!-- Kelchblaetter -->
+    <path d="M-4 21c-24 6-30 28-18 44 13-10 20-29 18-44z"/>
+    <path d="M4 21c24 6 30 28 18 44-13-10-20-29-18-44z"/>
+    <!-- Stiel -->
+    <path d="M0 25v42"/>
+  </g>
+
+  <!-- ===== Wortmarke ===== -->
+  <text x="500" y="594" text-anchor="middle"
+        font-family="'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif"
+        font-size="93" letter-spacing="9" fill="url(#gold)">ROSENGRUND</text>
+
+  <text x="500" y="652" text-anchor="middle"
+        font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif"
+        font-size="39" font-weight="700" letter-spacing="6" fill="url(#gold)">IMMOBILIENMANAGEMENT</text>
+</svg>

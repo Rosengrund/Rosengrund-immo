@@ -1,4 +1,4 @@
-/* Rosengrund Immobilienmanagement – Onepage Interaktionen */
+/* Rosengrund Immobilienmanagement – Interaktionen (Jahr, Kopfzeile, Menü, Einblenden, Kontaktformular) */
 (function () {
   "use strict";
 

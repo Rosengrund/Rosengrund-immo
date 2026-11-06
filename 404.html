@@ -2,20 +2,88 @@
 <html lang="de">
 <head>
 <meta charset="UTF-8">
+<base href="/">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Seite nicht gefunden – Rosengrund Immobilienmanagement</title>
-<link rel="icon" href="assets/img/icon.svg" type="image/svg+xml">
+<meta name="description" content="Die aufgerufene Seite wurde nicht gefunden.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#16302C">
+<link rel="canonical" href="https://rosengrund-immo.de/">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="preload" href="assets/fonts/inter-semibold.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="assets/css/style.css">
+<script>document.documentElement.classList.add('js');</script>
 </head>
 <body>
-<main class="section section-dark" style="min-height:80vh;display:flex;align-items:center">
-  <div class="wrap" style="text-align:center;max-width:620px">
-    <img src="assets/img/icon.svg" alt="Rosengrund Immobilienmanagement" width="84" height="84" style="border-radius:16px;margin:0 auto 1.5rem">
-    <p class="eyebrow eyebrow-light">Fehler 404</p>
-    <h1 style="font-size:clamp(2rem,5vw,3rem)">Diese Seite gibt es nicht</h1>
-    <p class="section-sub section-sub-light">Die aufgerufene Seite wurde verschoben oder existiert nicht mehr.</p>
-    <p style="margin-top:1.5rem"><a href="index.html" class="btn btn-primary">Zur Startseite</a></p>
+<a class="skip-link" href="#main">Zum Inhalt springen</a>
+
+<header class="site-header" id="siteHeader">
+  <div class="wrap header-inner">
+    <a href="index.html" class="brand" aria-label="Rosengrund Immobilienmanagement – Startseite">
+      <img src="assets/img/zeichen.svg" alt="" class="brand-mark" width="38" height="38">
+      <span class="brand-text"><span class="brand-name">Rosengrund</span><span class="brand-sub">Immobilienmanagement</span></span>
+    </a>
+    <nav class="main-nav" aria-label="Hauptnavigation">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="navList" id="navToggle">
+        <span class="nav-toggle-bar"></span><span class="visually-hidden">Menü öffnen</span>
+      </button>
+      <ul id="navList" class="nav-list">
+        <li><a href="index.html#leistungen">Leistungen</a></li>
+        <li><a href="index.html#portal">Portal</a></li>
+        <li><a href="index.html#ablauf">Ablauf</a></li>
+        <li><a href="index.html#ueber-uns">Über uns</a></li>
+        <li><a href="index.html#faq">FAQ</a></li>
+        <li><a href="index.html#kontakt" class="nav-cta">Kontakt</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="fehler">
+  <div>
+    <img src="assets/img/zeichen.svg" alt="" width="120" height="120">
+    <p class="eyebrow">Fehler 404</p>
+    <h1>Diese Seite gibt es nicht</h1>
+    <p>Die aufgerufene Seite wurde verschoben oder existiert nicht mehr.</p>
+    <p style="margin-top:1.6rem"><a href="index.html" class="btn btn-primary">Zur Startseite <span class="pfeil" aria-hidden="true">→</span></a></p>
   </div>
 </main>
+
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <a href="index.html" class="brand" aria-label="Rosengrund Immobilienmanagement – Startseite">
+      <img src="assets/img/zeichen.svg" alt="" class="brand-mark" width="38" height="38">
+      <span class="brand-text"><span class="brand-name">Rosengrund</span><span class="brand-sub">Immobilienmanagement</span></span>
+    </a>
+      <p>Digitale Objektverwaltung in Lich, Mittelhessen.<br>Leistungen im Rahmen des § 34c GewO.</p>
+    </div>
+    <nav class="footer-nav" aria-label="Footer-Navigation">
+      <h4>Navigation</h4>
+      <ul>
+        <li><a href="index.html#leistungen">Leistungen</a></li>
+        <li><a href="index.html#portal">Portal</a></li>
+        <li><a href="index.html#ueber-uns">Über uns</a></li>
+        <li><a href="index.html#kontakt">Kontakt</a></li>
+      </ul>
+    </nav>
+    <nav class="footer-nav" aria-label="Rechtliches">
+      <h4>Rechtliches</h4>
+      <ul>
+        <li><a href="impressum.html">Impressum</a></li>
+        <li><a href="datenschutz.html">Datenschutz</a></li>
+      </ul>
+      <p class="footer-legal">Inhaber: Cemalettin Gül · Klosterweg 12A, 35423 Lich · Erlaubnis nach § 34c GewO.</p>
+    </nav>
+  </div>
+  <div class="wrap footer-bottom">
+    <p>© <span data-jahr>2026</span> Rosengrund Immobilienmanagement. Alle Rechte vorbehalten.</p>
+    <p>Lich · Mittelhessen</p>
+  </div>
+</footer>
+<script src="assets/js/main.js"></script>
 </body>
 </html>
